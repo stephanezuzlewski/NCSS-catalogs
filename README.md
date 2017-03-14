@@ -13,12 +13,14 @@ The index.txt file contains a mapping between the commit times and the hash keys
 NCEDC Specific field values:
 
   status: (Event status)
+  
           A: Automatic
           F: Finalized
           H: Human Reviewed
           I: Intermediate
           
   magType: (Magnitude Type)
+  
           a : Primary amplitude magnitude (Jerry Eaton's XMAG)
           b : Body-wave magnitude
           d : Duration magnitude
@@ -31,6 +33,7 @@ NCEDC Specific field values:
           w : Moment magnitude
           
   type: (EventType)
+  
           bc: Building collapse/demolition
           eq: Earthquake
           ex: Generic chemical blast
